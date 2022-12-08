@@ -1,0 +1,56 @@
+body {
+  font-family: "Zen Dots", cursive;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.title,
+.weapon {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.weapon {
+  font-size: 40px;
+}
+
+.game {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rock,
+.paper,
+.scissors {
+  font-size: 100px;
+  margin-top: 10vh;
+}
+
+.scores > div {
+  border: solid 2px;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.scores-title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.scores > div {
+  padding: 10vw;
+}
+
+.computerScore {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

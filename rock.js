@@ -5,8 +5,9 @@ function getComputerChoice() {
 }
 
 function playRound(playerSelection, computerSelection) {
-  playerSelection = prompt("Pick 'rock','paper' or 'scissors'").toLowerCase();
-  computerSelection = options[getComputerChoice()];
+  playerSelection =
+    /*prompt("Pick 'rock','paper' or 'scissors'").toLowerCase();*/
+    computerSelection = options[getComputerChoice()];
 
   if (playerSelection === computerSelection) {
     console.log(
